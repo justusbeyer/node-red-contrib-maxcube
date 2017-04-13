@@ -12,7 +12,7 @@ module.exports = function(RED) {
     }
 
     node.on('input', function(msg) {
-      node.maxCube =  = new MaxCube(this.serverConfig.host, this.serverConfig.port);
+      node.maxCube = new MaxCube(this.serverConfig.host, this.serverConfig.port);
 
       node.maxCube.on('closed', function () {
 		node.status({fill:"red",shape:"ring",text:"disconnected"});
@@ -46,7 +46,7 @@ module.exports = function(RED) {
     }
 
     node.on('input', function(msg) {
-      node.maxCube =  = new MaxCube(this.serverConfig.host, this.serverConfig.port);
+      node.maxCube = new MaxCube(this.serverConfig.host, this.serverConfig.port);
 
       node.maxCube.on('closed', function () {
 		node.status({fill:"red",shape:"ring",text:"disconnected"});
