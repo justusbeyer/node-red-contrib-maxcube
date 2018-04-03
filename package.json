@@ -7,7 +7,7 @@
     "url": "git://github.com/ivesdebruycker/node-red-contrib-maxcube.git"
   },
   "dependencies": {
-    "maxcube": "^1.0.2"
+    "maxcube2": "^2.1.2"
   },
   "keywords": [
     "node-red",
